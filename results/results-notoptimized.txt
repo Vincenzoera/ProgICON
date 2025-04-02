@@ -1,0 +1,91 @@
+-- DECISION TREE CLASSIFIER
+Train score:  1.0 
+Test score:  0.76
+Cross Validation output:  [0.73333333 0.76666667 0.8        0.7        0.83333333 0.8
+ 0.86666667 0.76666667 0.79310345 0.89655172]
+Cross Validated Score for Decision Tree:  0.7956321839080459 
+Standard Deviation for Decision Tree:  0.056036811033267915 
+Variance  for Decision Tree:  0.0031401241907781765
+0-1 Loss:  0.24
+Accuracy: 0.7571428571428572
+              precision    recall  f1-score   support
+
+           0       0.76      0.71      0.74        35
+           1       0.76      0.80      0.78        40
+
+    accuracy                           0.76        75
+   macro avg       0.76      0.76      0.76        75
+weighted avg       0.76      0.76      0.76        75
+
+
+-- KNN
+Train score:  0.8859060402684564 Test score:  0.7333333333333333
+Cross Validation output:  [0.7        0.75       0.83333333 0.71186441 0.83050847]
+Cross Validated Score for KNN:  0.765141242937853
+Standard Deviation for KNN:  0.05698086732368031
+Variance  for KNN:  0.0032468192409588585
+0-1 Loss:  0.2666666666666667
+Accuracy: 0.7392857142857142
+              precision    recall  f1-score   support
+
+           0       0.67      0.83      0.74        35
+           1       0.81      0.65      0.72        40
+
+    accuracy                           0.73        75
+   macro avg       0.74      0.74      0.73        75
+weighted avg       0.75      0.73      0.73        75
+
+
+-- LOGISTIC REGRESSION
+Train score:  0.8187919463087249 
+Test score:  0.8
+Cross Validation output:  0.8057142857142857
+Standard Deviation for Random Forest:  0.11673564530319668
+Variance for Random Forest:  0.013627210884353744
+0-1 Loss:  0.19999999999999996
+Accuracy: 0.8089285714285714
+              precision    recall  f1-score   support
+
+           0       0.72      0.94      0.81        35
+           1       0.93      0.68      0.78        40
+
+    accuracy                           0.80        75
+   macro avg       0.82      0.81      0.80        75
+weighted avg       0.83      0.80      0.80        75
+
+
+-- RANDOM FOREST CLASSIFIER
+Train score:  1.0 
+Test score:  0.84
+Cross Validation output:  0.8692857142857143
+Standard Deviation for Random Forest:  0.08544235966660112
+Variance for Random Forest:  0.007300396825396825
+0-1 Loss:  0.16000000000000003
+Accuracy: 0.8446428571428571
+              precision    recall  f1-score   support
+
+           0       0.78      0.91      0.84        35
+           1       0.91      0.78      0.84        40
+
+    accuracy                           0.84        75
+   macro avg       0.85      0.84      0.84        75
+weighted avg       0.85      0.84      0.84        75
+
+
+-- MULTI LAYER PERCEPTRON
+Train score:  0.889261744966443 
+Test score:  0.7866666666666666
+Cross Validation output:  [0.79865772 0.77181208]
+Cross Validated Score for Multi Layer Perceptron:  0.785234899328859
+Standard Deviation for Multi Layer Perceptron:  0.01342281879194629
+Variance  for Multi Layer Perceptron:  0.00018017206432142645
+0-1 Loss:  0.21333333333333337
+Accuracy: 0.7928571428571428
+              precision    recall  f1-score   support
+
+           0       0.72      0.89      0.79        35
+           1       0.88      0.70      0.78        40
+
+    accuracy                           0.79        75
+   macro avg       0.80      0.79      0.79        75
+weighted avg       0.80      0.79      0.79        75
